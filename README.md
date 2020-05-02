@@ -5,8 +5,9 @@ This website was developed as part of my week 2 project in the developme coding 
 - Design interpretation
 - Atomic Design
 - HTML
+  - Semantic Elements, Images, Lists, Links, Buttons
 - CSS
-  - Flexbox, Grid, 
+  - Flexbox, Grid
   - Variables, OOCSS
 - Responsive Design
   - Small (mobile), medium, and large layouts
