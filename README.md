@@ -14,5 +14,3 @@ This website was developed as part of my week 2 project in the developme coding 
 
 ## Access
 [Hosted Here](https://nik.developme.space)
-
-## Testing
