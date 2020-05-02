@@ -1,0 +1,22 @@
+/* style.css */
+/*           */
+
+/* Using a reset.css */
+@import '_reset.css';
+
+/* settings */
+@import '_settings.css';
+
+@import '_typography.css';
+@import '_buttons-links.css'; 
+@import '_forms.css';
+@import '_imagery.css';
+
+@import '_nav.css';
+@import '_sidebar.css';
+@import '_card.css';
+@import '_article.css';
+
+@import '_main-partials.css';
+
+@import '_layout.css';

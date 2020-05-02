@@ -1,0 +1,62 @@
+/* buttons, links, and icons */
+
+/* navigation links text */
+.nav-text {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* article links text */
+.link-text {
+    font-size: 1rem;
+    color: var(--blue);
+}
+
+/* small navigation bars icon */
+.small-nav {
+    border: none;
+    background-color: var(--white);
+}
+
+/* icons */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tan);
+    width: 55px; height: 55px;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+.icon img {
+    object-fit: scale-down;
+}
+
+/* category buttons */
+.category-button {
+    font-size: 0.875rem;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 2px;
+    padding: 0.25rem 0.5rem;
+}
+
+/* form submission button */
+.submit-button {
+    font-size: 0.875rem;
+    background-color: var(--salmon);
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 3px;
+}
+
+/* nav img icon for small screens */
+@media (max-width: 500px) {
+    .small-nav img {
+        width: 28px;
+}
+}
+

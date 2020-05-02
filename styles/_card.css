@@ -1,0 +1,40 @@
+/* _card */
+/*       */
+
+.card {
+    text-align: center;
+    position: relative;
+}
+
+.card button {
+    margin: 1.5rem;
+}
+
+.card h3 {
+    padding: 0.5rem 0;
+}
+
+.card h4 {
+    margin: 1rem 0 3rem 0;
+}
+
+.card a {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.cardlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* for mobile collapse to 1 grid column */
+@media (max-width: 500px) {
+    .cardlist {
+        grid-template-columns: 1fr;
+    }
+}

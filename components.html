@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+        <!-- title and description -->
+        <meta name="description" content="This is a website about ..."> 
+        <title>Components Site</title> 
+
+        <!-- icons -->
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+        
+        <!-- css -->
+        <link rel="stylesheet" href="styles/style.css"> <!-- link to CSS file e.g. "../style.css" -->
+    </head>
+    <body>
+        
+        <!-- Atoms -->
+            <!-- typography -->
+        <h1>Components Page</h1>
+        <h1><em>Emphasized</em></h1>
+        <h2>This is a second heading</h2>
+        <h3>Third heading</h3>
+        <h4>Fourth heading</h4>
+        
+        <p>Normal p text</p>
+        <p class="date-time">Posted at</p>
+        <time class="date-time" datetime="2020-04-07">7th April, 2020</time>
+        <ul>
+            <li><a href="#">Link List Text</a></li>
+        </ul>
+            <!-- .nav-text -->
+        <a href="#" class="nav-text">nav bar text</a>
+
+            <!-- .link-text -->
+        <a href="http://" class="link-text">Link Text</a>
+
+            <!-- icons -->
+
+        <button class="icon">
+            <img src="images/icons/search1.svg" alt="magnifying glass icon" />
+        </button>
+        <a class="icon" href="http://twitter.com">
+            <img src="images/icons/twitter1.svg" alt="twitter icon" />
+        </a>
+        <a href="http://facebook.com" class="icon">
+            <img src="images/icons/facebook-f1.svg" alt="facebook icon" />
+        </a>
+        <br><br>
+        <a href="http://youtube.com" class="icon">
+            <img src="images/icons/youtube1.svg" alt="youtube icons" />
+        </a>
+        <br><br>
+        <a href="http://instagram.com" class="icon">
+            <img src="images/icons/instagram1.svg" alt="instagram icon" />
+        </a>
+        <br><br>
+        <button class="small-nav">
+            <img src="images/icons/bars1.svg" alt="menu selection bars icon" />   
+        </button>
+            
+        <br><br>
+            <!-- buttons -->
+        <button class="category-button">blue button</button>
+        <input type="submit" class="submit-button" value="Send Message"/>
+
+        <br>
+        <br>
+            <!-- form label -->
+        <label for="name">Label</label>
+        <br>
+            <!-- input -->
+        <input type="text" name="" id="name" />
+        <br>
+            <!-- textarea  -->
+        <textarea name="" id="" cols="100" rows="15"></textarea>
+
+        <br><br>
+            <!--  images -->
+        <img src="images/photos/penguin1.jpg" alt="penguin on a snow covered rock" />
+        <!-- <img src="images/photos/bird1.jpg" alt="black swan curled up" />
+        <img src="images/photos/elephants1.jpg" alt="four elephants walking in a line down a dirt path" />
+        <img src="images/photos/hero1.jpg" alt="picture of Jo the photographer holding hands into chest looking away from camera" />
+        <img src="images/photos/jellies1.jpg" alt="a lot of colorful jellyfish in the ocean" />
+        <img src="images/photos/snake1.jpg" alt="close up of a snake head curled up" />
+        <img src="images/photos/turtle1.jpg" alt="turle swimming in the ocean" />
+        <img src="images/photos/water-birds1.jpg" alt="a group of birds in the water" />
+        <img src="images/photos/zebra1.jpg" alt="close up of a zebras face" /> -->
+
+        <!-- Molecules -->
+        <h2>Molecules</h2>
+        <br><br>
+        <h3>Nav</h3><br>
+
+            <!-- nav 
+                .nav-main -->
+        <nav class="nav-main">
+                <a href="index.html" class="nav-text">Home</a>
+                <a href="blog.html" class="nav-text">Blog</a>
+                <a href="contact.html" class="nav-text">Contact</a>
+                <button class="icon">
+                        <img src="images/icons/search1.svg" alt="magnifying glass icon" />
+                </button>
+
+                <button class="small-nav">
+                        <img src="images/icons/bars1.svg" alt="menu selection bars icon" />   
+                </button>
+        </nav>
+
+            <!-- contact form 
+                .form-contact -->
+        <form action="" class="form-contact">
+            <section class="form-section">
+                <label for="message">Message</label>
+                <textarea name="message" id=""message cols="100" rows="15"></textarea>
+            </section>
+            <section class="form-section">
+                    <label for="name">Name *</label>
+                    <input type="text" name="name" id="name" required/>
+            </section>
+            <section class="form-section">
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" id="email" required/>
+            </section>
+            <section class="form-section">
+                    <label for="website">Website</label>
+                    <input type="url" name="website" id="website" />
+            </section>
+            <input type="submit" class="submit-button" value="Send Message"/>
+        </form>
+
+        <br><br>
+
+        <!-- sidebar widget
+            .widget -->
+        <h3>Sidebar widget</h3><br>
+        <section class="widget">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a></li>
+                <li><a href="#">Praesentium ea, neque quaerat ipsa sit quidem.</a></li>
+                <li><a href="#"> Aut inventore omnis, libero, molestias consequuntur officiis incidunt voluptates laudantium, sapiente eveniet nulla dolorem voluptatum.</a></li>
+            </ul>
+        </section>
+
+        <br><br>
+
+        <!-- .hero -->
+        <section class="hero">
+            <h1>My name is Jo<span class="text-color-salmon">.</span>
+            </span><br>I'm a <em class="text-color-blue">photographer</em></h1>
+        </section>
+
+        <br><br>
+
+        <!-- .card -->
+        <section class="card">
+            <img src="images/photos/jellies1.jpg" alt="jellyfish swimming in the sea" />
+            <button class="category-button">underwater</button>
+            <button class="category-button">colourful</button>
+            <h3>Donec fringilla eros metus</h3>
+            <time class="date-time" datetime="2020-06-07">Posted on June 7,2020</time>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate molestias maxime voluptatum distinctio nobis.</h4>
+            <a href="#" class="link-text" >Continue reading</a>
+        </section>
+
+        <br /><br />
+
+        <!-- .article -->
+        <article class="article">
+                <img src="images/photos/jellies1.jpg" alt="jellyfish swimming in the sea" />
+                <time class="date-time" datetime="2020-06-07">Posted on June 7,2020</time>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab ipsum, error eaque quo itaque provident perferendis rem temporibus debitis nemo doloremque nostrum obcaecati, distinctio assumenda magnam minus cum. Unde, nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis earum error possimus. Quae, eum! Eligendi, corporis! Dolore error, earum fuga quis commodi sed nobis molestiae nostrum quos hic nemo soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi, voluptate voluptas qui ullam cupiditate. In aspernatur tempore ullam, modi praesentium quae fugit odio aperiam tenetur! Quidem assumenda alias magni?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, labore quae nostrum at consequatur similique temporibus ex facere est velit dolore doloremque numquam dicta quis, illo iure error rerum tempora.</p>
+                <button class="category-button">colourful</button>
+                <button class="category-button">water</button>
+        </article>
+
+    
+        <!-- Organisms  -->
+        <h2>Organisms</h2>
+        <br><br>
+            <!-- .header-main -->
+        <header class="header-main">
+            <h1><em>Ignis</em></h1>
+            <nav class="nav-main">
+                <a href="index.html" class="nav-text">Home</a>
+                <a href="blog.html" class="nav-text">Blog</a>
+                <a href="contact.html" class="nav-text">Contact</a>
+                <button class="icon">
+                        <img src="images/icons/search1.svg" alt="magnifying glass icon" />
+                </button>
+
+                <button class="small-nav">
+                        <img src="images/icons/bars1.svg" alt="menu selection bars icon" />   
+                </button>
+            </nav>
+        </header>
+
+        <!-- .gallery -->
+
+        <section class="gallery">
+            <figure class="span-two-row">
+                <img src="images/photos/penguin1.jpg" alt="penguin on a snow covered rock" />
+            </figure>
+            <figure class="span-one-row">
+                <img src="images/photos/jellies1.jpg" alt="a lot of colorful jellyfish in the ocean" />
+            </figure>
+            <figure class="span-two-row">
+                <img src="images/photos/zebra1.jpg" alt="close up of a zebras face" />
+            </figure>
+            <figure class="span-two-row">
+                <img src="images/photos/bird1.jpg" alt="black swan curled up" />
+            </figure>
+            <figure class="span-one-row">
+                <img src="images/photos/snake1.jpg" alt="close up of a snake head curled up" />
+            </figure>
+            <figure class="span-two-row">
+                <img src="images/photos/elephants1.jpg" alt="four elephants walking in a line down a dirt path" />
+            </figure>
+            <figure class="span-one-row">
+                <img src="images/photos/water-birds1.jpg" alt="a group of birds in the water" />
+            </figure>
+            <figure class="span-one-row">
+                    <img src="images/photos/turtle1.jpg" alt="turle swimming in the ocean" />
+            </figure>
+        </section>
+
+
+        <!-- .footer-main -->
+
+        <footer class="footer-main">
+            <a class="icon" href="http://twitter.com">
+                <img src="images/icons/twitter1.svg" alt="twitter icon" />
+            </a>
+            <a href="http://facebook.com" class="icon">
+                <img src="images/icons/facebook-f1.svg" alt="facebook icon" />
+            </a>
+            <a href="http://youtube.com" class="icon">
+                <img src="images/icons/youtube1.svg" alt="youtube icons" />
+            </a>
+            <a href="http://instagram.com" class="icon">
+                <img src="images/icons/instagram1.svg" alt="instagram icon" />
+            </a>
+        </footer>
+    
+
+        <!-- .cardlist -->
+        
+        <section class="cardlist">
+            <section class="card">
+                    <img src="images/photos/jellies1.jpg" alt="jellyfish swimming in the sea" />
+                    <button class="category-button">underwater</button>
+                    <button class="category-button">colourful</button>
+                    <h3>Donec fringilla eros metus</h3>
+                    <time class="date-time" datetime="2020-06-07">Posted on June 7,2020</time>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate molestias maxime voluptatum distinctio nobis.</h4>
+                    <a href="#" class="link-text" >Continue reading</a>
+            </section>
+            <section class="card">
+                    <img src="images/photos/turtle1.jpg" alt="turle swimming in the ocean" />
+                    <button class="category-button">underwater</button>
+                    <button class="category-button">blue</button>
+                    <h3>Donec fringilla eros metus</h3>
+                    <time class="date-time" datetime="2020-06-07">Posted on June 7,2020</time>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate molestias maxime voluptatum distinctio nobis. Sit ullam necessitatibus culpa ea sed impedit quidem sunt commodi aperiam! Placeat, officiis laboriosam repudiandae laborum pariatur ab adipisci quibusdam rem iusto!</h4>
+                    <a href="#" class="link-text" >Continue reading</a>
+            </section>
+            <section class="card">
+                    <img src="images/photos/water-birds1.jpg" alt="a group of birds in the water" />
+                    <button class="category-button">birds</button>
+                    <button class="category-button">water</button>
+                    <h3>Donec fringilla eros metus</h3>
+                    <time class="date-time" datetime="2020-06-07">Posted on June 7,2020</time>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate molestias maxime voluptatum distinctio nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h4>
+                    <a href="#" class="link-text" >Continue reading</a>
+            </section>
+            <section class="card">
+                    <img src="images/photos/snake1.jpg" alt="close up of a snake head curled up" />
+                    <button class="category-button">reptiles</button>
+                    <button class="category-button">colourful</button>
+                    <h3>Donec fringilla eros metus</h3>
+                    <time class="date-time" datetime="2020-06-07">Posted on June 7,2020</time>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate molestias maxime voluptatum distinctio nobis.</h4>
+                    <a href="#" class="link-text" >Continue reading</a>
+            </section>
+
+        </section>
+
+
+        <!-- .sidebar -->
+        <section class="sidebar">
+            <section class="widget">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a></li>
+                    <li><a href="#">Praesentium ea, neque quaerat ipsa sit quidem.</a></li>
+                    <li><a href="#"> Aut inventore omnis, libero, molestias consequuntur officiis incidunt voluptates laudantium, sapiente eveniet nulla dolorem voluptatum.</a></li>
+                </ul>
+            </section>
+            <section class="widget">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a></li>
+                    <li><a href="#">Praesentium ea, neque quaerat ipsa sit quidem.</a></li>
+                    <li><a href="#"> Aut inventore omnis, libero, molestias consequuntur officiis incidunt voluptates laudantium, sapiente eveniet nulla dolorem voluptatum.</a></li>
+                </ul>
+            </section>
+        </section>
+            
+    </body>
+</html>

@@ -1,0 +1,31 @@
+/* _main-partials */
+/*                */
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main a {
+    margin: 1.5rem;
+}
+
+/* change header margin for med/small designs */
+@media (max-width: 780px) {
+    .header-main{
+        margin-bottom: 1rem;
+    }
+}
+
+/* adjust footer margins for small screens */
+@media (max-width: 450px) {
+    .footer-main a {
+        margin: 0.6rem;
+    }
+}

@@ -1,0 +1,31 @@
+/* _nav */
+/*      */
+
+.nav-main {
+    display: flex;
+}
+.nav-main a {
+    padding: 1.5rem;
+}
+
+.nav-main button {
+    margin-left: 3rem;
+}
+
+/* hide the links and seach link for Med/Small designs */
+@media (max-width: 780px) {
+    .nav-main a {
+        display: none;
+    }
+
+    .nav-main .icon {
+        display: none;
+    }
+}
+
+/* hide the icon nav for wide view */
+@media (min-width: 780px) {
+    .nav-main .small-nav {
+        display: none;
+    }
+}

@@ -1,0 +1,78 @@
+/* _typography */
+/*            */
+
+h1,h2,h3,h4,.nav-text,p,.date-time,button,.link-text,input,label,ul li a {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,h2,h3,h4,.nav-text,p,.date-time,.list-text,label,ul li a {
+    color: var(--black);
+}
+
+button,input {
+    color: var(--white);
+}
+
+h2,h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h3,input {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    background-color: var(--tan);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+
+
+h4,p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+
+}
+
+.date-time {
+    font-size: 0.8125rem;
+    line-height: 1.7rem;
+}
+
+em {
+    font-family: 'Pacifico', cursive;
+}
+
+/* Medium Screens */
+@media (max-width: 780px) {
+    h1,h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4,.link-text {
+        font-size: .875rem;
+    }
+
+    .date-time {
+        font-size: 0.75rem;
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    h1,h2 {
+        font-size: 1.5rem;
+    }
+    
+}
