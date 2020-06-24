@@ -12,5 +12,5 @@ This website was developed as part of my week 2 project in the developme coding 
 - Responsive Design
   - Small (mobile), medium, and large layouts
 
-## Access
-[Hosted Here](https://nik.developme.space)
+## URL
+https://nik.developme.space/photography-site/
