@@ -2,23 +2,21 @@
 /*           */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Pacifico&display=swap");
 
 /* border-box for everything */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Setting CSS variables and root font size */
 :root {
-    font-size: 16px;
+  font-size: 16px;
 
-    --black: #4A4A4A;
-    --salmon: #FF6A7C;
-    --tan:  #FFF0E9;
-    --grey: #B2B5BA;
-    --blue: #41CADD;
-    --white: #FEFEFE;
-
-    
+  --black: #4a4a4a;
+  --salmon: #ff6a7c;
+  --tan: #fff0e9;
+  --grey: #b2b5ba;
+  --blue: #41cadd;
+  --white: #fefefe;
 }

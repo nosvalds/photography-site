@@ -2,16 +2,16 @@
 /*           */
 
 .widget ul li {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
-.sidebar .widget{
-    margin-bottom: 2rem;
+.sidebar .widget {
+  margin-bottom: 2rem;
 }
 
 /* remove the article sidebar for small screens */
 @media (max-width: 500px) {
-    .sidebar {
-        display: none;
-    }
+  .sidebar {
+    display: none;
+  }
 }

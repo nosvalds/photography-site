@@ -1,30 +1,28 @@
 /* _article */
 
 .article img {
-    width: 100%;
+  width: 100%;
 }
 
 .article time {
-    text-align: left;
-    display: block;
-    padding: 0 0.1rem;
+  text-align: left;
+  display: block;
+  padding: 0 0.1rem;
 }
 
 .article p {
-    padding: 0.5rem 0;
-    margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .article button {
-        margin: 1rem;
+  margin: 1rem;
 }
 
 /* change padding for med/small screens */
 @media (max-width: 760px) {
-    .article p {
-        padding: 0;
-        margin: 0;
-    }
+  .article p {
+    padding: 0;
+    margin: 0;
+  }
 }
-
-

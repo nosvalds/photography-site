@@ -3,34 +3,35 @@
 
 /* main container */
 .container {
-    max-width: 1000px;
-    padding: 0 1rem;
-    margin: 0 auto; 
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
 
-.hero, .normal-hero {
-    margin-bottom: 2rem;
+.hero,
+.normal-hero {
+  margin-bottom: 2rem;
 }
 
 .cardlist {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .article-container {
-    display: grid;
-    grid-template-columns: 0.65fr 0.35fr;
-    grid-gap: 2rem;
-    max-width: 960px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.65fr 0.35fr;
+  grid-gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .form-contact {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* move to 1 column for the article grid on mobile */
 @media (max-width: 500px) {
-    .article-container {
-        grid-template-columns: 1fr;
-    }
+  .article-container {
+    grid-template-columns: 1fr;
+  }
 }
