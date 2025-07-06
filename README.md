@@ -18,11 +18,6 @@ This website was developed as part of my week 2 project in the developme coding 
 
 [Hosted Here](https://photo-site-project.nikolaso.com)
 
-## Deploying update to Kualo
+## Deploying 
 
-```
-ssh njo-server
-git clone https://github.com/nosvalds/photography-site.git
-cp -R photography-site/* photo-site-project.nikolaso.com/
-rm -rf photography-site
-```
+Updates pushed to main branch with deploy to GitHub Pages
